@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "80865710501",
+    "firebase_url": "https://ayamgeprek-eb924.firebaseio.com",
+    "project_id": "ayamgeprek-eb924",
+    "storage_bucket": "ayamgeprek-eb924.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80865710501:android:5510a4ec982a7983",
+        "android_client_info": {
+          "package_name": "com.example.android.ayamgeprekbusari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80865710501-84sigge9ejkqgbbi19j7j5m852mfd678.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNyrXiW2Ip3c3LDSBHG54QpIbaXAPNAWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80865710501-ilj6v9po7lomu2ockidq9k20kettqavr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
