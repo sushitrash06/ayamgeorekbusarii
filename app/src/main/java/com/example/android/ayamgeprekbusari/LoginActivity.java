@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
     private void handleSignInResult(Task<GoogleSignInAccount> task) {
         try {
             GoogleSignInAccount account = task.getResult(ApiException.class);
-            startActivity(new Intent(LoginActivity.this, InputPesanan.class));
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
         } catch (ApiException e) {
             Toast.makeText(this, "SignIn Failed", Toast.LENGTH_SHORT).show();
@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onStart() {
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         if (account != null) {
-            startActivity(new Intent(LoginActivity.this, InputPesanan.class));
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
         }
         super.onStart();

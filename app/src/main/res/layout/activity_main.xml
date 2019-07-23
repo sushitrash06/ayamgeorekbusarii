@@ -4,23 +4,153 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bgr"
     tools:context="com.example.android.ayamgeprekbusari.MainActivity">
 
     <TextView
         android:id="@+id/judul"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Pilihan Menu"
-        android:textSize="50dp" />
+        android:background="@color/colorPrimary"
+        android:textSize="25dp" />
 
-    <ImageView
+    <ImageButton
+        android:layout_marginLeft="20dp"
         android:id="@+id/gb_ayamgeprek"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@id/judul"/>
+        android:layout_below="@id/judul"
+        android:src="@drawable/ayamgeprek"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gb_ayamgeprek"
+        android:text="Ayam Geprek 13000"
+        android:id="@+id/tx_ayamgeprek"
+        android:textSize="15dp"/>
 
-    <TextView/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/judul"
+        android:layout_toRightOf="@id/gb_ayamgeprek"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/gb_pecaklele"
+        android:src="@drawable/pecaklele" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/tx_pecaklele"
+         android:layout_toRightOf="@id/tx_ayamgeprek"
+         android:layout_below="@id/gb_pecaklele"
+         android:text="Pecak lele 11000"
+         android:textSize="15dp"
+         android:layout_marginLeft="60dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tx_ayamgeprek"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/gb_PecakIkanMas"
+        android:src="@drawable/pecakikanmas" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_pecakikanmas"
+        android:layout_below="@id/gb_PecakIkanMas"
+        android:text="PecakIkanMas24000"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tx_pecaklele"
+        android:layout_toRightOf="@id/gb_PecakIkanMas"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/gb_gado2"
+        android:src="@drawable/gado2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_gado2"
+        android:layout_toRightOf="@id/tx_pecakikanmas"
+        android:layout_below="@id/gb_gado2"
+        android:text="Gado-gado 11000"
+        android:textSize="15dp"
+        android:layout_marginLeft="55dp"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tx_pecakikanmas"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/gb_nasi"
+        android:src="@drawable/nasi" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_nasi"
+        android:layout_below="@id/gb_nasi"
+        android:text="Nasi 4000"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tx_gado2"
+        android:layout_toRightOf="@id/gb_nasi"
+        android:scaleType="centerCrop"
+        android:id="@+id/gb_esteh"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/esteh" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_esteh"
+        android:layout_toRightOf="@id/tx_nasi"
+        android:layout_below="@id/gb_esteh"
+        android:text="Pecak lele 11000"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tx_nasi"
+        android:scaleType="centerCrop"
+        android:id="@+id/gb_esjeruk"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/esjeruk" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_esjeruk"
+        android:layout_below="@id/gb_esjeruk"
+        android:text="Es Jeruk 10000"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="PESAN !!"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_pesan1"
+        android:layout_alignParentRight="true"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
+
 
 
 </RelativeLayout>
